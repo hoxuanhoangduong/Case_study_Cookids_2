@@ -1,0 +1,106 @@
+html, body {
+    height: 100%;
+    background-color: black;
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#root {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://www.santamariaworld.com/globalassets/foodservice/concept/inspired-by-streetfood/koncept-header-insp-streetfood.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.title {
+    color: aliceblue;
+    height: 20PX;
+    display:flex;
+    flex-flow:column;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    color: aliceblue;
+    height: 20px;
+    margin-bottom: 100px;    
+}
+h4 {
+    color: aliceblue;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 600px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url(https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-512.png) ;
+    background-position: 8px 5px;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    padding: 12px 20px 12px 50px;
+    -webkit-transition: width 0.2s ease-in-out;
+    transition: width 0.2s ease-in-out;
+}
+
+input[type=text]:focus {
+    width:300px;
+}
+
+button {
+    font-size: 17px;
+    float: right;
+    height: 50px;
+    width: 40px;
+    border: none;
+    background :#ddd;
+    cursor: pointer;
+    padding: 10PX;
+}
+
+.container {
+    background: none;
+    max-width: 600px;
+    max-height: 500px;
+    margin: 10px ;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.item {
+    background-color: rgb(255, 255, 255,0.3);
+    margin: 20px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    width: 80px;
+    color: aliceblue;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight:bold;
+}   
+ a {
+    color: aliceblue;
+}
+
+.mostsearch{
+    color: aliceblue;
+    font-weight:bold;
+    margin-top: 40px;
+    text-align:center;
+}
